@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Listings | SachinMart.lk</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="nav container">
+        <a class="brand" href="index.html">SachinMart<span>.lk</span></a>
+        <div class="nav-links">
+          <a href="browse.html" class="active">Browse</a>
+          <a href="sell.html">Sell</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container page-content">
+      <section class="section-heading">
+        <p class="eyebrow">Marketplace</p>
+        <h1>Browse the latest listings</h1>
+        <p>Find items for sale or rent across Sri Lanka with a few simple filters.</p>
+      </section>
+
+      <section class="toolbar">
+        <input id="searchBox" type="text" placeholder="Search for products or services" />
+        <select id="categoryFilter">
+          <option value="All">All categories</option>
+          <option value="Vehicles">Vehicles</option>
+          <option value="Property">Property</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Fashion">Fashion</option>
+        </select>
+      </section>
+
+      <div id="browse-listings" class="listing-grid"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
